@@ -64,3 +64,14 @@
 
 
 // console.log(isValid);  // false
+
+// const baseSalary = 30000;
+// const overtime = 10;
+// const rate = 20;
+
+// const getWage = (baseSalary, overtime, rate) => {
+//   return baseSalary + overtime * rate;
+// };
+
+// getWage(baseSalary, overtime, rate);
+// console.log(getWage(1, 5, 10))
