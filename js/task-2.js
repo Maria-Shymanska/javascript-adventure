@@ -21,3 +21,57 @@
 // } else {
 //     console.log("Невірно");
 // }
+
+
+// Перевірте, чи є гроші на балансі, якщо є то виведіть на консолі "Positive", якщо немає, то "Negative"
+
+
+// const balance = 10;
+
+// if (balance > 0) {
+//     console.log("Positive");
+// } else if (balance < 0) {
+//     console.log("Negative");
+// } else {
+//     console.log("Balance is 0");
+// }
+
+
+// const age = 20;
+// console.log(age > 10 && age < 30); // true && true -> true
+
+
+// Якщо хоча б один із операндів буде приведений до false, результатом виразу буде його значення.
+
+// const age = 50;
+// console.log(age > 10 && age < 30); // true && false -> false
+// console.log(age > 80 && age < 120); // false && true -> false
+
+
+// Тобто, логічне «І» зупиняється на хибному і повертає те, на чому зупинилось, або останній операнд.
+
+// Логічне 'АБО' || ()
+
+// Оператор || приводить всі операнди до буля і повертає значення одного з них.
+
+// Тобто, логічне 'АБО' зупиняється на правді і повертає те, на чому зупинилося або останній операнд.
+
+// Виконуючи логічне «АБО», правий операнд може не обчислюватися у випадку, якщо лівий був приведений до true.
+
+
+// Логічне 'НЕ'  '!'
+
+// Оператор '!' приводить операнд до буля, якщо необхідно, а потім робить інверсію - змінює його на протилежний true -> false або false -> true.
+
+// console.log(!true); // false
+// console.log(!false); // true
+// console.log(!3); // !3 -> !true -> false
+// console.log(!"Mango"); // !"Mango" -> !true -> false
+// console.log(!0); // !0 -> !false -> true
+// console.log(!""); // !"" -> !false -> true
+
+// const isOnline = true;
+// const isNotOnline = !isOnline; // !isOnline -> !true -> false
+
+
+
