@@ -75,3 +75,34 @@
 
 
 
+// const arr1 = [1, 2, 3];
+// const arr2 = arr1;
+// arr1[1] = 1;
+// arr2[2] = 1;
+// console.log(arr2)   // [1, 1, 1]
+
+
+// const arr1 = [1, 2, 3];
+// const arr2 = [1, 2, 3];
+// const result = arr1 === arr2;
+// console.log(result)   // false
+
+// порожній масив приводиться до порожнього рядка, який приводиться до числа 0.
+
+// console.log(Number([])); // 0
+// console.log(Number([1])); // 1
+// console.log(Number([1, 2, 3])); // NaN
+
+// При перетворенні масиву в логічне значення будь-який масив, навіть порожній, перетворюється на true.
+
+// const emptyArray = [];
+// const nonEmptyArray = [1, 2, 3];
+
+// console.log(Boolean(emptyArray)); // true
+// console.log(Boolean(nonEmptyArray)); // true
+
+// const array = [false];
+// const result = array ? "A" : "B";
+// console.log(result)  // A
+
+
