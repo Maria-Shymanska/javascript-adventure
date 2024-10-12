@@ -66,14 +66,14 @@
 
 // для доступу до обєкта в методі використовується не імя змінної цього обєкта а ключове слово this
 
-const bookShelf = {
-  books: ["The Last Kingdom", "The Mist"],
-  getBooks() {
-    console.log(this);
-  },
-};
+// const bookShelf = {
+//   books: ["The Last Kingdom", "The Mist"],
+//   getBooks() {
+//     console.log(this);
+//   },
+// };
 
-bookShelf.getBooks(); // {books: ["The Last Kingdom", "The Mist"], getBooks: f}
+// bookShelf.getBooks(); // {books: ["The Last Kingdom", "The Mist"], getBooks: f}
 
 
 
