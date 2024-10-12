@@ -45,23 +45,35 @@
 // методи обєкта
 
 // ✅ Логічно й синтаксично згруповані сутності
+// const bookShelf = {
+//   books: ["The Last Kingdom", "Dream Guardian"],
+//   // Це метод об'єкта
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   // Це метод об'єкта
+//   addBook(bookName) {
+// 		return `Adding book ${bookName}`;
+//   },
+// };
+
+// Виклики методів
+// bookShelf.getBooks(); // поверне "Returning all books"
+// bookShelf.addBook("New book 1"); // поверне "Adding book New book 1"
+// bookShelf.addBook("New book 2"); // поверне "Adding book New book 2"
+
+// Доступ до властивостей обєкта
+
+// для доступу до обєкта в методі використовується не імя змінної цього обєкта а ключове слово this
+
 const bookShelf = {
-  books: ["The Last Kingdom", "Dream Guardian"],
-  // Це метод об'єкта
+  books: ["The Last Kingdom", "The Mist"],
   getBooks() {
-    return "Returning all books";
-  },
-  // Це метод об'єкта
-  addBook(bookName) {
-		return `Adding book ${bookName}`;
+    console.log(this);
   },
 };
 
-// Виклики методів
-bookShelf.getBooks(); // поверне "Returning all books"
-bookShelf.addBook("New book 1"); // поверне "Adding book New book 1"
-bookShelf.addBook("New book 2"); // поверне "Adding book New book 2"
-
+bookShelf.getBooks(); // {books: ["The Last Kingdom", "The Mist"], getBooks: f}
 
 
 
